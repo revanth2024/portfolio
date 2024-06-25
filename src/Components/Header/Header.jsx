@@ -35,23 +35,23 @@ const Header = (props) => {
   const Navdata = [
     {
       menu: "Home",
-      url: "/#",
+      url: "#",
     },
     {
       menu: "About",
-      url: "/#about",
+      url: "#about",
     },
     {
       menu: "Skills",
-      url: "/#skills",
+      url: "#skills",
     },
     {
       menu: "Project",
-      url: "/#project",
+      url: "#project",
     },
     {
-      menu: "Education",
-      url: "/#education",
+      menu: "Career",
+      url: "#career",
     },
   ];
 
