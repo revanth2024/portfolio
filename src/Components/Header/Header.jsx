@@ -35,24 +35,23 @@ const Header = (props) => {
   const Navdata = [
     {
       menu: "Home",
-      url: "/",
-      
+      url: "#",
     },
     {
       menu: "About",
-      url: "/#about",
+      url: "#about",
     },
     {
       menu: "Skills",
-      url: "/#skills",
+      url: "#skills",
     },
     {
       menu: "Project",
-      url: "/#project",
+      url: "#project",
     },
     {
       menu: "Career",
-      url: "/#career",
+      url: "#career",
     },
   ];
 
@@ -60,7 +59,7 @@ const Header = (props) => {
     <>
       <Navbar collapseOnSelect expand="lg" fixed="top" className="main-header">
         <Container>
-          <Navbar.Brand href="/" className="logo">
+          <Navbar.Brand href="#home" className="logo">
             <img src={logo} alt="logo" fluid />
             <h4>Portfolio</h4>
           </Navbar.Brand>
@@ -69,7 +68,7 @@ const Header = (props) => {
             id="responsive-navbar-nav"
             className={isOpen ? "show" : ""}
           >
-            <Nav className="ms-auto" >
+            <Nav className="ms-auto">
               {Navdata.map((data, index) => (
                 <Nav.Link
                   href={data.url}
