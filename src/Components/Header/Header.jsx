@@ -35,23 +35,28 @@ const Header = (props) => {
   const Navdata = [
     {
       menu: "Home",
-      url: "#",
+      url: "/",
+      as: HashLink,
     },
     {
       menu: "About",
-      url: "#about",
+      url: "/#about",
+      as: HashLink,
     },
     {
       menu: "Skills",
-      url: "#skills",
+      url: "/#skills",
+      as: HashLink,
     },
     {
       menu: "Project",
-      url: "#project",
+      url: "/#project",
+      as: HashLink,
     },
     {
       menu: "Career",
-      url: "#career",
+      url: "/#career",
+      as: HashLink,
     },
   ];
 
@@ -59,7 +64,7 @@ const Header = (props) => {
     <>
       <Navbar collapseOnSelect expand="lg" fixed="top" className="main-header">
         <Container>
-          <Navbar.Brand href="#home" className="logo">
+          <Navbar.Brand href="/" className="logo">
             <img src={logo} alt="logo" fluid />
             <h4>Portfolio</h4>
           </Navbar.Brand>
@@ -71,6 +76,7 @@ const Header = (props) => {
             <Nav className="ms-auto">
               {Navdata.map((data, index) => (
                 <Nav.Link
+                  as={data.as}
                   href={data.url}
                   key={index}
                   eventKey={index}
