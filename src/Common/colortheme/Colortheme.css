@@ -1,0 +1,31 @@
+@import "../../Main.css";
+
+.theme-icon {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  outline: 0;
+  z-index: 9;
+}
+.theme-icon svg {
+  padding: 12px;
+  background-color: #00e9d8;
+  border-radius: 50%;
+  color: black;
+  font-size: 48px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.dark-icon {
+  animation: rotate 5s linear infinite;
+}
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

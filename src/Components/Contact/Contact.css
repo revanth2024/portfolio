@@ -1,0 +1,126 @@
+@import "../../Main.css";
+
+.contact-section {
+  padding: 80px 0px 30px 0px;
+  background: var(--background-second-color);
+}
+.form-div {
+  margin-top: 40px;
+}
+.form-div label {
+  color: var(--text-color);
+}
+
+.form-div input {
+  height: 20px;
+  caret-color: var(--text-color);
+  color: var(--text-color);
+  border-radius: 5px;
+  outline: 0;
+}
+.form-div textarea {
+  caret-color: var(--text-color);
+  border-radius: 5px;
+  color: var(--text-color);
+}
+.form-div fieldset {
+  border-color: #ffffff !important;
+}
+.form-di div div:hover fieldset,
+textarea {
+  border-color: rgb(190, 190, 190) !important;
+}
+.css-30ksgk .MuiOutlinedInput-root {
+  box-shadow: rgb(21 21 21 / 30%) 0px 1px 2px 0px,
+    rgb(0 0 0 / 15%) 0px 2px 3px 2px;
+}
+.css-1jy569b-MuiFormLabel-root-MuiInputLabel-root.Mui-focused {
+  color: var(--text-color) !important;
+  background-color: rgba(0, 0, 0, 0);
+}
+.css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root.Mui-focused
+  .MuiOutlinedInput-notchedOutline {
+  border-color: white !important;
+}
+
+.no-spinner input[type="number"]::-webkit-outer-spin-button,
+.no-spinner input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.form-flex {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 20px;
+}
+
+.submit-btn {
+  background-color: #ffffff;
+  color: black;
+  border: 1px solid #787878;
+  border-radius: 5px;
+  padding: 13px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: system-ui;
+  font-weight: 600;
+  gap: 5px;
+  vertical-align: middle;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.5s ease-out;
+  z-index: 1;
+  outline: 0;
+  width: 100%;
+  margin: 35px 0px;
+}
+.submit-btn::before {
+  content: "";
+  background: #00e9d8;
+  left: -10%;
+  transform: skew(30deg);
+  transition: transform 0.6s cubic-bezier(0.3, 1, 0.8, 1);
+  position: absolute;
+  height: 100%;
+  width: 120%;
+  z-index: -1;
+}
+.submit-btn:hover::before {
+  transform: translateX(100%);
+}
+
+.contact-heading h2 {
+  font-weight: 700;
+  color: var(--text-color);
+  font-family: system-ui;
+  letter-spacing: 0.05em;
+  text-align: center;
+}
+.contact-heading .underline-animation {
+  margin: 20px auto;
+}
+@media only screen and (min-width: 320px) and (max-width: 576px) {
+  .contact-section {
+    padding: 50px 0px 20px 0px;
+  }
+  .form-div {
+    margin-top: 0px;
+  }
+  .form-flex {
+    display: block;
+    margin-bottom: 0px;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .form-div {
+    margin-top: 0px;
+  }
+  .form-flex {
+    display: block;
+    margin-bottom: 0px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+}

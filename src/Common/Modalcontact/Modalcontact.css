@@ -1,0 +1,108 @@
+@import "../../Main.css";
+
+.bg-color {
+  padding: 0px 30px 30px 30px !important;
+}
+.title {
+  text-align: center;
+  font-weight: 800;
+  font-family: "Outfit";
+  letter-spacing: 0;
+  color: #00305c;
+  padding-top: 20px;
+}
+.sub-title {
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-family: "Outfit";
+  color: #005c50;
+}
+.contact-div {
+  margin: 20px 0px 20px 0px;
+  display: flex;
+  justify-content: flex-start;
+}
+.contact-div:hover .icon svg {
+  color: #ffffff;
+  transition: all 0.2s linear;
+}
+.contact-div:hover .icon {
+  background-color: #00305c;
+  border-color: #00305c;
+  transition: all 0.2s linear;
+}
+.contact-div:hover .data {
+  color: #00305c;
+  transition: all 0.2s linear;
+}
+.contact-div a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  text-decoration: none;
+}
+.icon {
+  border: 1px solid #000000;
+  border-radius: 50%;
+  padding: 8px;
+  background-color: #e9f2fa;
+  transition: all 0.2s ease-in;
+}
+.icon svg {
+  font-size: 23px;
+  color: black;
+  transition: all 0.2s ease-in;
+}
+.data {
+  margin: 0;
+  color: black;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Outfit";
+  transition: all 0.2s ease-in;
+}
+.cv-button {
+  text-decoration: none;
+}
+.cv-button button {
+  background-color: #ffffff;
+  color: white;
+  border: 1px solid #b6b6b6;
+  border-radius: 5px;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: system-ui;
+  font-weight: 600;
+  gap: 10px;
+  vertical-align: middle;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.2s ease-out;
+  z-index: 1;
+  outline: 0;
+  width: 100%;
+  margin: 35px 0px 20px 0px;
+}
+
+.cv-button button::before {
+  content: "";
+  background: #002e58;
+  left: -10%;
+  transform: skew(30deg);
+  transition: transform 0.6s cubic-bezier(0.3, 1, 0.8, 1);
+  position: absolute;
+  height: 100%;
+  width: 120%;
+  z-index: -1;
+}
+
+.cv-button button:hover::before {
+  transform: translateX(100%);
+}
+.cv-button button:hover {
+  color: black;
+}

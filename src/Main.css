@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&family=Jost:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --background-color: white;
+  --text-color: #000000;
+  --border-color: rgb(0, 0, 0);
+  --background-second-color: rgb(249, 249, 249);
+  --underline-color: white;
+  --underline-second-color: white;
+  --heading-color: #013e74;
+}
+
+/* Dark theme */
+[data-theme="dark"] {
+  --background-color: linear-gradient(
+    90deg,
+    rgb(0 18 40) 0%,
+    rgb(0 35 56) 50%,
+    rgb(0 18 40) 100%
+  );
+  --text-color: #eaeaea;
+  --border-color: rgb(233, 233, 233);
+  --background-second-color: linear-gradient(
+    90deg,
+    rgb(1, 32, 68) 0%,
+    rgb(0, 64, 102) 50%,
+    rgba(0, 30, 63, 1) 100%
+  );
+  --underline-color: #003e64;
+  --underline-second-color: #002338;
+  --heading-color: #00e9d8;
+}
+body {
+  background: var(--background-second-color);
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: #e0e0e0;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #575757;
+  border-radius: 5px;
+  height: 30px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #737373;
+}

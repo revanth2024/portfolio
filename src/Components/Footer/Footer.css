@@ -1,0 +1,29 @@
+@import "../../Main.css";
+
+.footer-section {
+  padding: 25px 0px;
+  background: linear-gradient(
+    90deg,
+    rgb(0 18 40) 0%,
+    rgb(0 35 56) 50%,
+    rgb(0 18 40) 100%
+  );
+}
+.footer-content {
+  color: white;
+  text-align: center;
+  margin: 0;
+  font-size: 17px;
+  letter-spacing: 0.02em;
+}
+.footer-content a {
+  text-decoration: none;
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+}
+.footer-content a:hover {
+  color: #00ffec;
+  transition: all 0.4s linear;
+}

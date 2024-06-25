@@ -1,0 +1,237 @@
+@import "../../Main.css";
+
+.hero-image {
+  text-align: center;
+  position: relative;
+  width: 95%;
+}
+
+.hero-image img {
+  width: 100%;
+  height: auto;
+  position: relative;
+  padding: 20px;
+}
+
+.hero-image::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  border: 2px solid #00e9d8;
+  border-top-width: 5px;
+  border-bottom-width: 5px;
+  border-radius: 50%;
+  border-top-color: transparent;
+  border-bottom-color: transparent;
+  box-sizing: border-box;
+  pointer-events: none;
+  animation: rotate-border 8s infinite linear;
+}
+
+@keyframes rotate-border {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.hero-section {
+  width: 100%;
+  overflow: hidden;
+  background: var(--background-color);
+  padding: 180px 0 100px 0px;
+}
+
+.hero-content h2 {
+  color: var(--text-color);
+  font-family: system-ui;
+  font-weight: 800;
+}
+.hero-content h2 span {
+  font-size: 50px;
+  font-weight: 700;
+}
+.hero-content h1 {
+  color: var(--text-color);
+  font-weight: 700;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin-bottom: 20px;
+  display: inline-flex;
+}
+.hero-content h1 span {
+  color: #00e9d8;
+  letter-spacing: 0.03em;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin-left: 5px;
+}
+.hero-content p {
+  color: var(--text-color);
+  font-size: 18px;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+.main-btn {
+  text-decoration: none;
+}
+.main-btn button {
+  background-color: #ffffff;
+  color: black;
+  border: 1px solid #666666;
+  border-radius: 5px;
+  padding: 8px 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: system-ui;
+  font-weight: 600;
+  gap: 5px;
+  vertical-align: middle;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.5s ease-out;
+  z-index: 1;
+  margin-bottom: 30px;
+}
+
+.main-btn button svg {
+  color: black;
+  transition: transform 0.2s ease-out;
+  font-size: 30px;
+}
+.main-btn button::before {
+  content: "";
+  background: #00e9d8;
+  left: -10%;
+  transform: skew(30deg);
+  transition: transform 0.6s cubic-bezier(0.3, 1, 0.8, 1);
+  position: absolute;
+  height: 100%;
+  width: 120%;
+  z-index: -1;
+}
+.main-btn button:hover::before {
+  transform: translateX(100%);
+}
+.main-btn button:hover svg {
+  transform: rotate(45deg);
+  transition: all 0.2s linear;
+}
+
+/* Social */
+.social-link {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.social-link a {
+  text-decoration: none;
+  border: 1px solid var(--border-color);
+  border-radius: 50%;
+  padding: 8px;
+  display: inline-flex;
+  position: relative;
+  overflow: hidden;
+}
+.social-link a svg {
+  font-size: 25px;
+  color: var(--border-color);
+}
+
+.social-icon::before {
+  content: "";
+  background: #51fff3;
+  left: -18%;
+  top: 0%;
+  transition: all 0.5s ease-in-out;
+  position: absolute;
+  height: 100%;
+  width: 120%;
+  z-index: -1;
+  border: 1px solid transparent;
+}
+.social-icon:hover::before {
+  border: 1px solid transparent;
+  transform: translateX(100%);
+  z-index: 1;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 576px) {
+  .hero-content h2 span {
+    font-size: 32px;
+  }
+  .hero-content p {
+    font-size: 15px;
+  }
+  .main-btn button {
+    padding: 7px 15px;
+    font-size: 15px;
+  }
+  .main-btn button svg {
+    font-size: 25px;
+  }
+  .hero-section {
+    padding: 120px 0px 50px 0px;
+  }
+  .banner-section {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .hero-content h2 {
+    margin-top: 35px;
+  }
+  .hero-image {
+    width: 80%;
+    margin: auto;
+  }
+  .hero-content h1 {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .banner-section {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .hero-section {
+    padding: 120px 0px 50px 0px;
+  }
+  .hero-content h2 span {
+    font-size: 30px;
+  }
+  .main-btn button {
+    padding: 7px 15px;
+    font-size: 15px;
+  }
+  .hero-content h1 {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .hero-section {
+    padding: 120px 0 50px 0px;
+  }
+  .hero-content h2 span {
+    font-size: 35px;
+  }
+  .hero-content p {
+    font-size: 15px;
+  }
+  .main-btn button {
+    padding: 7px 15px;
+    font-size: 15px;
+  }
+  .hero-content h1 {
+    font-size: 30px;
+    display: block;
+  }
+}

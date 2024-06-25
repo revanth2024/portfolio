@@ -1,0 +1,44 @@
+@import "../../../Main.css";
+
+.navbar-toggler:focus {
+  box-shadow: none;
+  text-decoration: none;
+}
+.navbar-toggler {
+  border: none;
+  padding: 0px;
+}
+.hamburger-menu {
+  width: 30px;
+  height: 22px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.hamburger-menu .line-menu {
+  height: 4px;
+  width: 100%;
+  background-color: #ffffff;
+  transition: all 0.3s;
+  border-radius: 4px;
+  transform: rotate(0deg) translateX(0px);
+}
+.hamburger-menu .first-line {
+  width: 50%;
+  align-self: flex-end;
+}
+.hamburger-menu .last-line {
+  width: 50%;
+}
+.hamburger-menu.open .first-line {
+  transform: rotate(313deg) translate(-4px, 0px);
+}
+
+.hamburger-menu.open .line-menu:nth-child(2) {
+  transform: rotate(47deg) translate(0px, 0px);
+}
+
+.hamburger-menu.open .last-line {
+  transform: rotate(313deg) translate(4px, -1px);
+}

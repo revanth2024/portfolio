@@ -1,0 +1,82 @@
+@import "../../Main.css";
+
+.career-section {
+  padding: 80px 0px;
+  background: var(--background-color);
+}
+
+.career-heading h2 {
+  font-weight: 700;
+  color: var(--text-color);
+  font-family: system-ui;
+  letter-spacing: 0.05em;
+  text-align: center;
+}
+
+.career-heading .underline-animation {
+  margin: 20px auto;
+}
+
+.career-heading .underline-animation::before {
+  background-color: var(--underline-second-color);
+}
+
+.career-item {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  border: 1px solid var(--heading-color);
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 2px 5px;
+  background-color: #00243b00;
+  border-left: 5px solid var(--heading-color);
+  cursor: pointer;
+}
+
+.career-icon {
+  border: 1px solid var(--heading-color);
+  border-radius: 50%;
+  padding: 25px;
+  transition: all 0.2s ease-in-out;
+}
+
+.career-icon svg {
+  font-size: 35px;
+  color: var(--text-color);
+}
+
+.career-details h4 {
+  color: var(--heading-color);
+  letter-spacing: 0.03em;
+  font-family: "Outfit";
+  margin-bottom: 13px;
+}
+.career-details h5 {
+  font-size: 19px;
+  color: var(--text-color);
+  text-transform: capitalize;
+  letter-spacing: 0.04em;
+}
+.career-item:hover .career-icon {
+  background-color: #00e9d8;
+  transition: all 0.3s linear;
+  border: 1px solid #00e9d8;
+}
+.career-item:hover .career-icon svg {
+  color: black;
+  transition: all 0.3s linear;
+  transform: scale(1.1);
+}
+.career-item:hover {
+  position: relative;
+  bottom: 10px;
+  transition: all 0.2s linear;
+}
+.career-details p {
+  margin-bottom: 0px;
+  color: var(--text-color);
+  letter-spacing: 0.04em;
+  font-family: outfit;
+  font-weight: 300;
+}

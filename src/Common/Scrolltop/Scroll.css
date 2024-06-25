@@ -1,0 +1,17 @@
+@import "../../Main.css";
+
+.scroll-top button {
+  position: fixed;
+  right: 20px;
+  bottom: 80px;
+  background-color: #00e9d8;
+  border-radius: 50%;
+  border: none;
+  outline: 0;
+  width: 45px;
+  height: 45px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.scroll-top svg {
+  font-size: 30px;
+}
