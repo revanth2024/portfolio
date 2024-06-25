@@ -36,27 +36,23 @@ const Header = (props) => {
     {
       menu: "Home",
       url: "/",
-      as: HashLink,
+      
     },
     {
       menu: "About",
       url: "/#about",
-      as: HashLink,
     },
     {
       menu: "Skills",
       url: "/#skills",
-      as: HashLink,
     },
     {
       menu: "Project",
       url: "/#project",
-      as: HashLink,
     },
     {
       menu: "Career",
       url: "/#career",
-      as: HashLink,
     },
   ];
 
@@ -73,10 +69,9 @@ const Header = (props) => {
             id="responsive-navbar-nav"
             className={isOpen ? "show" : ""}
           >
-            <Nav className="ms-auto">
+            <Nav className="ms-auto" >
               {Navdata.map((data, index) => (
                 <Nav.Link
-                  as={data.as}
                   href={data.url}
                   key={index}
                   eventKey={index}
