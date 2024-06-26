@@ -3,7 +3,6 @@ import { IoLogoGithub } from "react-icons/io";
 import { BiLogoLinkedin } from "react-icons/bi";
 import { IoMail } from "react-icons/io5";
 import { MdOutlineWhatsapp } from "react-icons/md";
-// import { SiNetlify } from "react-icons/si";
 import Tooltip from "@mui/material/Tooltip";
 
 import "./Home.css";
@@ -11,7 +10,7 @@ import "./Home.css";
 const Social = () => {
   return (
     <>
-      <div className="social-link">
+      <div className="social-link" data-aos="fade-up">
         <Tooltip title="Git-hub" arrow>
           <a
             href="https://github.com/revanth2024"
@@ -53,17 +52,6 @@ const Social = () => {
             <MdOutlineWhatsapp />
           </a>{" "}
         </Tooltip>
-
-        {/* <Tooltip title="Netlify" arrow>
-          <a
-            href="#."
-            target="_blank"
-            rel="noopener noreferrer"
-            className="social-icon"
-          >
-            <SiNetlify />
-          </a>{" "}
-        </Tooltip> */}
       </div>
     </>
   );

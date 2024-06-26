@@ -10,6 +10,7 @@ import { BiSolidPhoneCall } from "react-icons/bi";
 import { MdMail } from "react-icons/md";
 import { FaLinkedinIn } from "react-icons/fa6";
 import { MdDownload } from "react-icons/md";
+import ResumePDF from "../../Common/Resume/Revanth-Resume.pdf";
 
 import Slide from "@mui/material/Slide";
 
@@ -38,7 +39,7 @@ const Modalcontact = ({ open, handleClose }) => {
     },
     {
       img: <FaLinkedinIn />,
-      details: "revanthravichandran",
+      details: "linkedin.com/in/revanthravichandran/",
       link: "https://www.linkedin.com/in/revanthravichandran/",
     },
   ];
@@ -72,7 +73,12 @@ const Modalcontact = ({ open, handleClose }) => {
                 </a>
               </div>
             ))}
-            <a href="https://www.w3schools.com/" className="cv-button">
+            <a
+              href={ResumePDF}
+              className="cv-button"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <button>
                 <MdDownload />
                 Download CV

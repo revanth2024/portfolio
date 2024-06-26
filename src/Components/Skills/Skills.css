@@ -41,10 +41,10 @@
   object-fit: cover;
   width: 100%;
   height: 100%;
-  transform: skewX(3deg);
+  /* transform: skewX(3deg); */
 }
 .skill-divison p {
-  transform: skewX(3deg);
+  /* transform: skewX(3deg); */
   color: var(--text-color);
   margin-top: 20px;
   margin-bottom: 0px;

@@ -148,18 +148,22 @@
 .social-icon::before {
   content: "";
   background: #51fff3;
-  left: -18%;
+  left: -5%;
   top: 0%;
-  transition: all 0.5s ease-in-out;
+  transition: all 0.4s linear;
   position: absolute;
   height: 100%;
-  width: 120%;
+  width: 0%;
   z-index: -1;
   border: 1px solid transparent;
 }
 .social-icon:hover::before {
   border: 1px solid transparent;
-  transform: translateX(100%);
+  z-index: 1;
+  width: 100%;
+}
+.social-icon:hover svg {
+  color: #001e33;
   z-index: 1;
 }
 

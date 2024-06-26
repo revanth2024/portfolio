@@ -20,7 +20,7 @@ function Main() {
       <Blur />
       <Scroll />
       <Colortheme />
-      <Header />
+      <Header />  
       <Home />
       <About />
       <Skills />

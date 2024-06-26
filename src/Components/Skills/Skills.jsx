@@ -82,10 +82,10 @@ const Skills = () => {
   return (
     <>
       <section className="skils-section" id="skills">
-        <Container>
+        <Container>  
           <Row>
             <Col xxl={12}>
-              <div className="skills-heading">
+              <div className="skills-heading" data-aos="zoom-in-up">
                 <h2>Technical Skills</h2>
                 <div className="underline-animation"></div>
               </div>
@@ -93,7 +93,12 @@ const Skills = () => {
             <Col>
               <div className="main-flex">
                 {Skillsdata.map((data, index) => (
-                  <div key={index} className="skill-divison">
+                  <div
+                    key={index}
+                    className="skill-divison"
+                    data-aos="flip-left"
+                    data-aos-duration="1000"
+                  >
                     <img
                       src={data.Icon}
                       alt={`${data.Name} icon`}

@@ -3,9 +3,8 @@ import "./Colortheme.css";
 import { BsMoonStarsFill } from "react-icons/bs";
 import { IoSunnyOutline } from "react-icons/io5";
 
-
 const Colortheme = () => {
-  const [theme, setTheme] = useState(localStorage.getItem("theme") || "light");
+  const [theme, setTheme] = useState(localStorage.getItem("theme") || "dark");
 
   useEffect(() => {
     document.body.dataset.theme = theme;
@@ -18,7 +17,11 @@ const Colortheme = () => {
 
   return (
     <button onClick={toggleTheme} className="theme-icon">
-      {theme === "light" ? <BsMoonStarsFill /> : <IoSunnyOutline className="dark-icon"/>}
+      {theme === "light" ? (
+        <BsMoonStarsFill />
+      ) : (
+        <IoSunnyOutline className="dark-icon" />
+      )}
     </button>
   );
 };

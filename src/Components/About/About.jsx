@@ -3,6 +3,7 @@ import { Col, Container, Row } from "react-bootstrap";
 import "./About.css";
 import { FaArrowRight } from "react-icons/fa";
 import { MdDownload } from "react-icons/md";
+import ResumePDF from "../../Common/Resume/Revanth-Resume.pdf";
 
 function About() {
   const Aboutdata = [
@@ -14,7 +15,12 @@ function About() {
         <Container>
           <Row className="align-items-center">
             <Col xxl={5} xl={5} lg={5} md={8} sm={12}>
-              <div className="iframe-container" data-aos="zoom-in">
+              <div
+                className="iframe-container"
+                data-aos="zoom-in"
+                data-aos-easing="ease-out-cubic"
+                data-aos-delay="0"
+              >
                 <iframe
                   title="About-img"
                   src="https://lottie.host/embed/eaca4c6b-f3b9-49bd-b3a1-843600a10d2d/el7Os1W3mt.json"
@@ -22,21 +28,31 @@ function About() {
               </div>
             </Col>
             <Col xxl={7} xl={7} lg={7} md={12} sm={12}>
-              <div className="about-content">
+              <div className="about-content" data-aos="zoom-in-up">
                 <h2>About Me</h2>
                 <div className="underline-animation"></div>
               </div>
               <div className="about-list">
                 <ul>
                   {Aboutdata.map((data, index) => (
-                    <li key={index} data-aos="zoom-in-up">
+                    <li
+                      key={index}
+                      data-aos="zoom-in-up"
+                      data-aos-easing="ease-out-cubic"
+                      data-aos-delay="0"
+                    >
                       <FaArrowRight />
                       {data}
                     </li>
                   ))}
                 </ul>
               </div>
-              <div className="personal-detail " data-aos="zoom-in-up">
+              <div
+                className="personal-detail "
+                data-aos="zoom-in-up"
+                data-aos-easing="ease-out-cubic"
+                data-aos-delay="0"
+              >
                 <div className="flex-one">
                   <h5>Name :</h5>
                   <h5>Email :</h5>
@@ -53,7 +69,12 @@ function About() {
                 </div>
               </div>
               <div>
-                <a href="https://www.w3schools.com/" className="contact-btn">
+                <a
+                  href={ResumePDF}
+                  className="contact-btn"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <button>
                     <MdDownload />
                     Download CV

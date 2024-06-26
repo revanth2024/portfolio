@@ -1,4 +1,3 @@
-// App.js
 import React, { useEffect } from "react";
 import "./App.css";
 import "./Main.css";
@@ -10,11 +9,10 @@ import "aos/dist/aos.css";
 function App() {
   useEffect(() => {
     AOS.init({
-      duration: 1000,
-      offset: 200,
-      easing: "ease-in-out-back",
+      duration: 700,
+      // offset: 200,
+      easing: "ease-out-cubic",  
       delay: 0,
-      once: true,
     });
   }, []);
 

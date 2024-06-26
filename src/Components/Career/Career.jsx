@@ -51,7 +51,7 @@ const Career = () => {
       <Container>
         <Row>
           <Col xl={12}>
-            <div className="career-heading">
+            <div className="career-heading" data-aos="zoom-in-up">
               <h2>Career Journey</h2>
               <div className="underline-animation"></div>
             </div>

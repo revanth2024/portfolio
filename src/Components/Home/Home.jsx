@@ -37,14 +37,18 @@ function Home() {
                 </span>
               </h1>
 
-              <p data-aos="fade-up">
+              <p
+                data-aos="fade-up"
+                data-aos-easing="ease-out-cubic"
+                data-aos-delay="0"
+              >
                 This portfolio showcases my expertise in responsive design,
                 HTML, CSS, JavaScript, Bootstrap, jQuery, SASS, ReactJS, and
                 other frameworks, demonstrating my proficiency in delivering top
                 web development projects.
               </p>
               <a href="mailto:revanth2899@gmail.com" className="main-btn">
-                <button>
+                <button data-aos="fade-up">
                   <TiLocationArrow />
                   Hire Me
                 </button>
