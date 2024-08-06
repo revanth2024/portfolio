@@ -139,7 +139,7 @@ const Projects = () => {
       url: "https://menspgchennai.com/",
       sliderImg: [modaleightimg1, modaleightimg2, modaleightimg3],
       description: [
-        "Located in Madipakkam, near Sunshine Senior Secondary School, and just 1.5 km from Velachery Railway Station, Best Gents Hostel offers comfortable and affordable accommodations.",
+        "Located in Madipakkam, near Sunshine Chennai Senior Secondary School, and just 1.5 km from Velachery Railway Station, Best Gents Hostel offers comfortable and affordable accommodations.",
         "Ventilated Rooms: Enjoy proper ventilation in all rooms for natural air circulation.",
         "Safety First: Equipped with fire-fighting equipment as per safety regulations.",
         "Health Care: If needed, our management provides personal care, immediate doctor's consultation, and a specially prepared diet with parental care based on medical advice.Clean and Colorful Rooms: All rooms are neat, colorful, and come with a range of facilities.",
