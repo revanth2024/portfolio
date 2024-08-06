@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.154eda76.css",
-    "main.js": "/portfolio/static/js/main.7c27175f.js",
+    "main.css": "/portfolio/static/css/main.9c2713b8.css",
+    "main.js": "/portfolio/static/js/main.7d1e6e14.js",
     "static/js/453.6a34203d.chunk.js": "/portfolio/static/js/453.6a34203d.chunk.js",
+    "static/media/banner1.png": "/portfolio/static/media/banner1.685eb530875aac94d9c4.png",
+    "static/media/banner2.png": "/portfolio/static/media/banner2.40cc3d7dab43317858a2.png",
+    "static/media/banner3.png": "/portfolio/static/media/banner3.beb8dccb448ecc1a04fb.png",
     "static/media/Revanth-Resume.pdf": "/portfolio/static/media/Revanth-Resume.793441d3d4e2605287e7.pdf",
     "static/media/banner6.png": "/portfolio/static/media/banner6.fc64a92040d47eeb96fc.png",
-    "static/media/banner1.png": "/portfolio/static/media/banner1.685eb530875aac94d9c4.png",
     "static/media/banner5.png": "/portfolio/static/media/banner5.e5d813af01ec7b60b6a7.png",
     "static/media/banner4.png": "/portfolio/static/media/banner4.2ed721c5b3d36e367478.png",
-    "static/media/banner3.png": "/portfolio/static/media/banner3.beb8dccb448ecc1a04fb.png",
-    "static/media/banner2.png": "/portfolio/static/media/banner2.40cc3d7dab43317858a2.png",
     "static/media/banner.png": "/portfolio/static/media/banner.f7d0245291364bd88667.png",
     "static/media/react-bootstrap.png": "/portfolio/static/media/react-bootstrap.3ab9238249dadc08ffb1.png",
     "static/media/bootstrap.png": "/portfolio/static/media/bootstrap.46aea938cac1355e1b55.png",
@@ -20,12 +20,12 @@
     "static/media/logo.png": "/portfolio/static/media/logo.3892df978d024519eeb6.png",
     "static/media/vscode.png": "/portfolio/static/media/vscode.02144f7dd846c5d15aba.png",
     "index.html": "/portfolio/index.html",
-    "main.154eda76.css.map": "/portfolio/static/css/main.154eda76.css.map",
-    "main.7c27175f.js.map": "/portfolio/static/js/main.7c27175f.js.map",
+    "main.9c2713b8.css.map": "/portfolio/static/css/main.9c2713b8.css.map",
+    "main.7d1e6e14.js.map": "/portfolio/static/js/main.7d1e6e14.js.map",
     "453.6a34203d.chunk.js.map": "/portfolio/static/js/453.6a34203d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.154eda76.css",
-    "static/js/main.7c27175f.js"
+    "static/css/main.9c2713b8.css",
+    "static/js/main.7d1e6e14.js"
   ]
 }
