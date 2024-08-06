@@ -11,10 +11,10 @@ const Career = () => {
   const careerdata = [
     {
       designation: "Front-End Developer",
-      title: "Sanguine Blue Business Solutions",
+      title: "Andril Web Technologies",
       img: <FaUserShield />,
-      duration: "6 Months ( Nov 2023 - Apr 2024)",
-      location: "Ashok Nagar, Chennai.",
+      duration: "1 Year (Aug 2023 - Present)",
+      location: "Vadapalani, Chennai.",
     },
     {
       designation: "Web Development Course",

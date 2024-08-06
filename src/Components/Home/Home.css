@@ -84,7 +84,7 @@
 .main-btn button {
   background-color: #ffffff;
   color: black;
-  border: 1px solid #666666;
+  border: 1px solid #373737;
   border-radius: 5px;
   padding: 8px 18px;
   display: flex;
@@ -140,6 +140,7 @@
   position: relative;
   overflow: hidden;
 }
+
 .social-link a svg {
   font-size: 25px;
   color: var(--border-color);
@@ -160,7 +161,7 @@
 .social-icon:hover::before {
   border: 1px solid transparent;
   z-index: 1;
-  width: 100%;
+  width: 110%;
 }
 .social-icon:hover svg {
   color: #001e33;
@@ -198,6 +199,9 @@
   .hero-content h1 {
     display: block;
   }
+  .hero-content h1 span {
+    margin-left: 0px;
+  }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
@@ -218,6 +222,9 @@
   .hero-content h1 {
     display: block;
   }
+  .hero-content h1 span {
+    margin-left: 0px;
+  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 992px) {
@@ -237,5 +244,8 @@
   .hero-content h1 {
     font-size: 30px;
     display: block;
+  }
+  .hero-content h1 span {
+    margin-left: 0px;
   }
 }

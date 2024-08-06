@@ -7,7 +7,8 @@ import ResumePDF from "../../Common/Resume/Revanth-Resume.pdf";
 
 function About() {
   const Aboutdata = [
-    "As a dedicated Front End Web Developer, I specialize in crafting visually appealing, user-friendly websites. Proficient in HTML, CSS, JavaScript, React.js, and Bootstrap, I build modern, responsive web applications that look great on any device. I excel at creating seamless, cross-browser compatible experiences that enhance user engagement and satisfaction.",
+    "As a dedicated Front End Developer with over 1 year of experience, I specialize in crafting visually appealing, user-friendly websites. Proficient in HTML, CSS, Bootstrap, jQuery, SASS, and React.js, I build modern, responsive web applications that look great on any device.",
+    "I excel at creating seamless user experiences and ensuring cross-browser compatibility and responsiveness using media queries and flexbox/grid layouts.",
   ];
   return (
     <>
