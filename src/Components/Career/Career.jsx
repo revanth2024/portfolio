@@ -13,7 +13,7 @@ const Career = () => {
       designation: "Front-End Developer",
       title: "Andril Web Technologies",
       img: <FaUserShield />,
-      duration: "1 Year (Aug 2023 - Present)",
+      duration: "1 Year (Sep 2023 - Present)",
       location: "Vadapalani, Chennai.",
     },
     {

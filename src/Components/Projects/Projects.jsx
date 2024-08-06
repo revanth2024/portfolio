@@ -24,6 +24,8 @@ import banner03 from "./Images/banner3/banner1.png";
 import banner04 from "./Images/banner4/banner1.png";
 import banner05 from "./Images/banner5/banner1.png";
 import banner06 from "./Images/banner6/banner1.png";
+import banner07 from "./Images/banner7/banner1.png";
+import banner08 from "./Images/banner8/banner1.png";
 
 import html from "./Images/html.png";
 import css from "./Images/css.png";
@@ -67,6 +69,15 @@ import modalsixthimg1 from "./Images/banner6/banner1.png";
 import modalsixthimg2 from "./Images/banner6/banner2.png";
 import modalsixthimg3 from "./Images/banner6/banner3.png";
 
+import modalseventhimg1 from "./Images/banner7/banner1.png";
+import modalseventhimg2 from "./Images/banner7/banner2.png";
+import modalseventhimg3 from "./Images/banner7/banner3.png";
+import modalseventhimg4 from "./Images/banner7/banner4.png";
+
+import modaleightimg1 from "./Images/banner8/banner1.png";
+import modaleightimg2 from "./Images/banner8/banner2.png";
+import modaleightimg3 from "./Images/banner8/banner3.png";
+
 const Projects = () => {
   const style = {
     position: "absolute",
@@ -101,6 +112,43 @@ const Projects = () => {
 
   const projectdata = [
     {
+      name: "Reyos TC and ABA Services Website",
+      technology: "HTML Website",
+      img: banner07,
+      tools: [html, css, javascript, bootstrap, php],
+      url: "https://reyostcforotandabaservices.com/",
+      sliderImg: [
+        modalseventhimg1,
+        modalseventhimg2,
+        modalseventhimg3,
+        modalseventhimg4,
+      ],
+      description: [
+        "Provides intensive, evidence-based, and data-driven interventions for children and adolescents with Autism and other developmental delays (e.g., Intellectual Disabilities, Language Disorders, Learning Disabilities).",
+        "Specializes in the acquisition of language, communication skills, pre-academic and academic skills, independent functioning, and socialization.",
+        "Aims to unlock the potential of children through comprehensive and personalized care.",
+        "Delivers a comprehensive program that enhances various developmental areas to support overall growth and independence.",
+      ],
+    },
+
+    {
+      name: "Best Gents Hostel Website",
+      technology: "HTML Website",
+      img: banner08,
+      tools: [html, css, javascript, bootstrap, php],
+      url: "https://menspgchennai.com/",
+      sliderImg: [modaleightimg1, modaleightimg2, modaleightimg3],
+      description: [
+        "Located in Madipakkam, near Sunshine Chennai Senior Secondary School, and just 1.5 km from Velachery Railway Station, Best Gents Hostel offers comfortable and affordable accommodations.",
+        "Ventilated Rooms: Enjoy proper ventilation in all rooms for natural air circulation.",
+        "Safety First: Equipped with fire-fighting equipment as per safety regulations.",
+        "Health Care: If needed, our management provides personal care, immediate doctor's consultation, and a specially prepared diet with parental care based on medical advice.Clean and Colorful Rooms: All rooms are neat, colorful, and come with a range of facilities.",
+        "Room Options: Choose from independent single or sharing rooms, available with or without air conditioning. UV Disinfection: Our A/C rooms are fitted with UV disinfectant devices to help protect against viruses.",
+        "Affordable Rates: We offer very reasonable room rents. Please see the rental tariff below for details.",
+      ],
+    },
+
+    {
       name: "Camera Ecommerce Webiste",
       technology: "React Website",
       img: banner02,
@@ -123,7 +171,7 @@ const Projects = () => {
     },
 
     {
-      name: "Instagram Chatting App    ",
+      name: "Instagram Chatting App",
       technology: "React Website",
       img: banner01,
       tools: [html, sass, react, mui, reactboot],
@@ -235,7 +283,7 @@ const Projects = () => {
                 modules={[Pagination, Autoplay]}
                 className="mySwiper"
                 autoplay={{
-                  delay: 4000,
+                  delay: 6000,
                   disableOnInteraction: false,
                 }}
                 breakpoints={{
