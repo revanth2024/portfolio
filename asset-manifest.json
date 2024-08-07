@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.9c2713b8.css",
-    "main.js": "/portfolio/static/js/main.0add1e34.js",
+    "main.js": "/portfolio/static/js/main.a3f7588c.js",
     "static/js/453.6a34203d.chunk.js": "/portfolio/static/js/453.6a34203d.chunk.js",
     "static/media/banner1.png": "/portfolio/static/media/banner1.685eb530875aac94d9c4.png",
     "static/media/banner2.png": "/portfolio/static/media/banner2.40cc3d7dab43317858a2.png",
     "static/media/banner3.png": "/portfolio/static/media/banner3.beb8dccb448ecc1a04fb.png",
-    "static/media/Revanth-Resume.pdf": "/portfolio/static/media/Revanth-Resume.793441d3d4e2605287e7.pdf",
+    "static/media/Revanth-Resume.pdf": "/portfolio/static/media/Revanth-Resume.0afa55c255c40228117c.pdf",
     "static/media/banner6.png": "/portfolio/static/media/banner6.fc64a92040d47eeb96fc.png",
     "static/media/banner5.png": "/portfolio/static/media/banner5.e5d813af01ec7b60b6a7.png",
     "static/media/banner4.png": "/portfolio/static/media/banner4.2ed721c5b3d36e367478.png",
@@ -21,11 +21,11 @@
     "static/media/vscode.png": "/portfolio/static/media/vscode.02144f7dd846c5d15aba.png",
     "index.html": "/portfolio/index.html",
     "main.9c2713b8.css.map": "/portfolio/static/css/main.9c2713b8.css.map",
-    "main.0add1e34.js.map": "/portfolio/static/js/main.0add1e34.js.map",
+    "main.a3f7588c.js.map": "/portfolio/static/js/main.a3f7588c.js.map",
     "453.6a34203d.chunk.js.map": "/portfolio/static/js/453.6a34203d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9c2713b8.css",
-    "static/js/main.0add1e34.js"
+    "static/js/main.a3f7588c.js"
   ]
 }
